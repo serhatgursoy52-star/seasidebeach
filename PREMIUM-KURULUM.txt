@@ -1,0 +1,8 @@
+1) ZIP'i çıkar.
+2) Klasörü VS Code ile aç.
+3) Terminalde npm install
+4) npm run dev
+5) http://localhost:3000
+
+Bu sürümde premium arka plan, cam efektleri, animasyonlar, galeri başlıkları,
+klavye kontrollü lightbox, hero bilgi kartları ve yeni şezlong fotoğrafı hazırdır.

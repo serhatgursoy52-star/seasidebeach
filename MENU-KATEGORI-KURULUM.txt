@@ -1,0 +1,9 @@
+Bu sürümde /menu sayfası koyu kategori kartlarına dönüştürüldü.
+Kategoriye tıklayınca ilgili gerçek menü görselleri açılır.
+
+Kurulum:
+1) ZIP'i çıkar.
+2) Klasörü VS Code ile aç.
+3) npm install
+4) npm run dev
+5) http://localhost:3000/menu

@@ -1,0 +1,21 @@
+SEASIDE BEACH – HAZIR TAM PROJE
+
+1) ZIP dosyasını masaüstüne çıkar.
+2) Klasörü VS Code ile aç.
+3) Terminal:
+   npm install
+4) .env.example dosyasının kopyasını oluştur ve adını .env.local yap.
+5) .env.local içine Supabase URL ve Publishable Key bilgilerini yaz.
+6) Supabase SQL Editor içinde supabase/setup.sql dosyasını çalıştır.
+7) Authentication > Users bölümünden admin hesabı oluştur.
+8) Admin kullanıcının UID değerini şu SQL ile admins tablosuna ekle:
+   insert into public.admins (user_id) values ('ADMIN-UID') on conflict do nothing;
+9) Terminal:
+   npm run dev
+10) Site: http://localhost:3000
+    Admin: http://localhost:3000/admin
+
+ÖNEMLİ:
+- Secret/service_role anahtarını .env.local içine yazma.
+- node_modules ZIP içinde yoktur; npm install kuracaktır.
+- Eski projeyi silmek zorunda değilsin. Bu klasörü ayrı aç.
